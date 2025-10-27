@@ -1,0 +1,10 @@
+.build{
+    display: flex;
+    align-items: center;
+    background-color: #265A6A;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    gap: 200px;
+}

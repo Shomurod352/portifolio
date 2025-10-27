@@ -1,0 +1,55 @@
+.abou{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    gap: 90px;
+    background-color: rgb(34, 163, 218);
+}
+.text h1{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text h2{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text p{
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.abou img{
+    width: 500px;
+    height: 600px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 480px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        gap: 30px;
+    }
+    
+    .text h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 84px;
+    }
+
+    .text p {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+   
+}

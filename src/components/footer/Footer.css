@@ -1,0 +1,67 @@
+/* Footer konteyneri */
+.footer-container {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sarlavha */
+  .footer-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  /* Ikkonlar joylashuvi */
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  
+  /* Iconlar uchun o'lcham va animatsiya */
+  .icon {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    color: #3b82f6;
+  }
+  
+  /* Matn qismi */
+  .footer-text {
+    font-size: 1rem;
+    opacity: 0.7;
+  }
+  
+  /* 📱 Responsiv dizayn */
+  @media (max-width: 768px) {
+    .footer-title {
+      font-size: 1.5rem;
+    }
+    .icon {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-title {
+      font-size: 1.3rem;
+    }
+    .footer-text {
+      font-size: 0.9rem;
+    }
+    .icon {
+      font-size: 1.5rem;
+    }
+  }

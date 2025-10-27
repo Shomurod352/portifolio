@@ -1,0 +1,131 @@
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #265A6A;
+  
+}
+header ul {
+  display: flex;
+  gap: 80px;
+}
+header h1{
+  color: white;
+}
+
+header ul li  {
+  color: rgba(255, 255, 255, 0.644);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header h1 {
+  margin-left: 60px;
+  font-size: 40px;
+}
+header button {
+  width: 130px;
+  height: 50px;
+  margin-right: 60px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #0989b4;
+  border: none;
+  color: white;
+}
+header button:hover{
+  color: #0989b4;
+  background-color: aliceblue;
+  transition: 0.6s;
+}
+header ul li:hover{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.644);
+  color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+  header ul {
+    gap: 50px;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  header button {
+    width: 90px;
+    height: 45px;
+    font-size: 18px;
+    margin-right: 40px;
+  }
+
+  header ul li a {
+    font-size: 18px;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 30px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  header button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  header ul li a {
+    font-size: 18px;
+  }
+
+  header ul li:hover {
+    border-bottom: none;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+  header ul {
+    gap: 20px;
+    align-items: center;
+  }
+
+  header ul li a {
+    font-size: 16px;
+  }
+
+  header button {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
